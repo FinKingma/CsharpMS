@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "m7FaId3babuAIAHpzsacSLYKBvVn7aq/zIL6AUW4g7S5KHamF1jeXxGueJawWlXEt6dMyENc/8clVyg3//ynjg==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\DiscService\\DiscService\\DiscService\\DiscService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\finki\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\finki\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e4CFAcvjdJQVaIJ67SUrKCy8HMfufQt125WRdemVIt4=",
+  "Source": "DiscService",
+  "BasePath": "_content/DiscService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
