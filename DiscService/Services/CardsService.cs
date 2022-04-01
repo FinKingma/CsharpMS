@@ -1,10 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using DiscService.Services;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
 
 namespace DiscService
 {
-    public class CardsService
+    public class CardsService: ICardsService
     {
         private static readonly List<Card> cards = new List<Card>
         {

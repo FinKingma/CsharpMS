@@ -1,4 +1,5 @@
 using AutoMapper;
+using DiscService.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DiscService.Controllers
@@ -8,9 +9,9 @@ namespace DiscService.Controllers
     public class CardsController : ControllerBase
     {
         private readonly ILogger<CardsController> _logger;
-        private CardsService _cardsService;
+        private ICardsService _cardsService;
 
-        public CardsController(ILogger<CardsController> logger, CardsService cardsService)
+        public CardsController(ILogger<CardsController> logger, ICardsService cardsService)
         {
             _logger = logger;
             _cardsService = cardsService;
