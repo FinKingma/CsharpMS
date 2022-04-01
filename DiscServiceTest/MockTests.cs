@@ -1,6 +1,6 @@
 using DiscService;
 using DiscService.Controllers;
-using DiscService.Services;
+using DiscService.Services.Interfaces;
 using Moq;
 using System.Collections.Generic;
 using Xunit;
@@ -15,8 +15,8 @@ namespace DiscServiceTest
             var mockService = new Mock<ICardsService>();
             var mockedData = new List<Card>
             {
-                new Card(CardColor.BLUE, "Hoge eisen"),
-                new Card(CardColor.BLUE, "Analytisch")
+                new Card(1, CardColor.BLUE, "Hoge eisen"),
+                new Card(2, CardColor.BLUE, "Analytisch")
             };
             mockService.Setup(cardService => cardService.getAll()).Returns(mockedData);
 

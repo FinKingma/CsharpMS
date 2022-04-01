@@ -17,8 +17,10 @@ namespace DiscService
             get; set;
         }
         public string Text { get; set; }
+        public int Id { get; set; }
 
-        public Card(CardColor color, string text) { 
+        public Card(int id, CardColor color, string text) {
+            Id = id;
             Color = color;
             Text = text;
         }

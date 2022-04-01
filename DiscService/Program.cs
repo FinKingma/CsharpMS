@@ -1,10 +1,11 @@
 using DiscService;
+using DiscService.Services.Interfaces;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddScoped<CardsService>();
+builder.Services.AddSingleton<ICardsService>(_ => new CardsService());
 builder.Services.AddControllers().AddJsonOptions(x =>
 {
     // serialize enums as strings in api responses (e.g. Role)
